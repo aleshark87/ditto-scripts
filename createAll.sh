@@ -1,4 +1,4 @@
 #!/bin/bash
-source ~/Desktop/commands/createPolicy.sh
-source ~/Desktop/commands/createThing.sh
-source ~/Desktop/commands/createConnection.sh
+source ./createPolicy.sh
+source ./createThing.sh
+source ./createConnection.sh
