@@ -19,7 +19,7 @@
                 "filters": []
             }],
             "targets": [{
-                "address": "com.lamp/{{ thing:id }}",
+                "address": "com.lamp.notification/{{ thing:id }}",
                 "topics": [
                 "_/_/things/twin/events",
                 "_/_/things/live/messages"
