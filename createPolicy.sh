@@ -1,4 +1,4 @@
-curl -X PUT 'http://localhost:8080/api/2/policies/my.test:policy' -u 'ditto:ditto' -H 'Content-Type: application/json' -d '{
+curl -X PUT 'http://localhost:8080/api/2/policies/com.project.thesis:greenhouse' -u 'ditto:ditto' -H 'Content-Type: application/json' -d '{
     "entries": {
         "owner": {
             "subjects": {

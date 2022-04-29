@@ -19,4 +19,4 @@ function mapToDittoProtocolMsg(headers, textPayload, bytePayload, contentType) {
             }
         }
     };
-    return Ditto.buildDittoProtocolMsg(thingId[0], thingId[1], 'things', 'twin', 'commands', 'modify','/features', headers, value); }
+return Ditto.buildDittoProtocolMsg(thingId[0], thingId[1], 'things', 'twin', 'commands', 'modify','/features', headers, value); }
