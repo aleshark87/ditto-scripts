@@ -20,8 +20,8 @@ function mapToDittoProtocolMsg(headers, textPayload, bytePayload, contentType) {
         return array;
     }
     else{
-        const valueMsg = 'ciao' ;
-        const headersMsg = {'content-type': 'text/plain'};
+        const valueMsg = { value: jsonData.temperature };
+        const headersMsg = {'content-type': 'application/json'};
         const dittoProtocolEvent = Ditto.buildDittoProtocolMsg(thingId[0], thingId[1], 'things', 'live', 'messages', 'high_temperature', 'outbox/messages/high_temperature', headersMsg, valueMsg);
         return dittoProtocolEvent;
     }
