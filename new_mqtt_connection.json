@@ -21,8 +21,7 @@
             "targets": [{
                 "address": "com.greenhouse.notification/{{ thing:id }}",
                 "topics": [
-                "_/_/things/twin/events",
-                "_/_/things/live/messages"
+                  "_/_/things/live/messages"
                 ],
                 "authorizationContext": ["nginx:ditto"],
                 "qos": 0
